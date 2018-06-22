@@ -29,6 +29,10 @@ class Category extends \Brilliant\Items\BItemsItemTree{
 		$this->fieldAddRaw('imageAlt','string');
 		$this->fieldAddRaw('linkDetails','string');
 		$this->fieldAddRaw('description','string');
+		//HTML tags
+		$this->fieldAddRaw('title','string');
+		$this->fieldAddRaw('metadesc','string');
+		$this->fieldAddRaw('metakeyw','string');
 		//Created & modified
 		$this->fieldAddRaw('created','dt',array('readonly'=>true));
 		$this->fieldAddRaw('modified','dt',array('readonly'=>true));
