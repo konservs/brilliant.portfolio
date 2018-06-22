@@ -17,6 +17,9 @@
 	"support": {
 		"email": "andrii.biriev@gmail.com"
 	},
+	"require": {
+		"konservs/brilliant.framework": "*"
+	},
 	"autoload": {
 		"psr-4": {
 			"Brilliant\\Portfolio\\": "libraries/Portfolio"
