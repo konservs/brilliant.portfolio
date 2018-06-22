@@ -1,0 +1,25 @@
+{
+	"name": "konservs/brilliant.portfolio",
+	"description": "Portfolio package for Brilliant Framework",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["portfolio", "brilliant"],
+	"homepage": "https://github.com/konservs/brilliant.portfolio",
+	"license": "MIT",
+	"authors": [
+		{
+		"name": "Andrii Biriev",
+		"email": "andrii.biriev@gmail.com",
+		"homepage": "https://konservs.com",
+		"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "andrii.biriev@gmail.com"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brilliant\\Portfolio\\": "libraries/Portfolio"
+		}
+	}
+}
