@@ -31,7 +31,7 @@
 		],
 		"post-package-update": [
 			"Brilliant\\Portfolio\\EventsManager::postPackageUpdate"
-		]
+		],
 		"post-install-cmd": [
 			"Brilliant\\Portfolio\\EventsManager::postInstall"
 		],
