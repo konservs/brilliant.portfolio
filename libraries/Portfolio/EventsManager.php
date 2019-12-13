@@ -33,4 +33,9 @@ class EventsManager {
 		// do stuff
 	}
 
+	public static function postRootPackageInstall(Event $event){
+		self::addToLog("postRootPackageInstall called!");
+		$composer = $event->getComposer();
+		// do stuff
+	}
 }

@@ -37,6 +37,9 @@
 		],
 		"post-update-cmd": [
 			"Brilliant\\Portfolio\\EventsManager::postUpdate"
+		],
+		"post-root-package-install": [
+			"Brilliant\\Portfolio\\EventsManager::postRootPackageInstall"
 		]
 	}
 }
