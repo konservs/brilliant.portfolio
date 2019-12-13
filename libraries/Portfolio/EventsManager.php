@@ -21,4 +21,16 @@ class EventsManager {
 		// do stuff
 	}
 
+	public static function postPackageUpdate(Event $event){
+		self::addToLog("postPackageUpdate called!");
+		$composer = $event->getComposer();
+		// do stuff
+	}
+
+	public static function postPackageInstall(Event $event){
+		self::addToLog("postPackageInstall called!");
+		$composer = $event->getComposer();
+		// do stuff
+	}
+
 }

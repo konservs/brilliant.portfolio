@@ -26,6 +26,12 @@
 		}
 	},
 	"scripts": {
+		"post-package-install": [
+			"Brilliant\\Portfolio\\EventsManager::postPackageInstall"
+		],
+		"post-package-update": [
+			"Brilliant\\Portfolio\\EventsManager::postPackageUpdate"
+		]
 		"post-install-cmd": [
 			"Brilliant\\Portfolio\\EventsManager::postInstall"
 		],
