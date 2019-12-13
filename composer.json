@@ -24,5 +24,13 @@
 		"psr-4": {
 			"Brilliant\\Portfolio\\": "libraries/Portfolio"
 		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"Brilliant\\Portfolio\\EventsManager::postInstall"
+		],
+		"post-update-cmd": [
+			"Brilliant\\Portfolio\\EventsManager::postUpdate"
+		]
 	}
 }
